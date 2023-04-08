@@ -19,12 +19,12 @@
   <depend>map_server</depend>
   <depend>octomap_server</depend>
   
-  <exec_depend>smb_path_following_controller</exec_depend>
+  <!-- <exec_depend>smb_path_following_controller</exec_depend> -->
   <exec_depend>pointcloud_to_laserscan</exec_depend>
   <exec_depend>robot_self_filter</exec_depend>
   <exec_depend>teb_local_planner</exec_depend>
   <exec_depend>traversability_estimation</exec_depend>
-  <exec_depend>smb_ompl_planner</exec_depend>
+  <!-- <exec_depend>smb_ompl_planner</exec_depend> -->
   <exec_depend>lb_navigation_scripts</exec_depend>
   
   <export>
