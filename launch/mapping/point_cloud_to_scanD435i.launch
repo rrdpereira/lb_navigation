@@ -2,7 +2,8 @@
 
 <launch>
 
-<arg name="cloud_in_topic" default="/camera/depth/color/points_filtered"/>
+<arg name="cloud_in_topic" default="/camera/depth/color/points"/>
+<!-- <arg name="cloud_in_topic" default="/camera/depth/color/points_filtered"/> -->
 <arg name="scan_out_topic" default="/camera/scan"/>
 
 <!-- push pointcloud_to_laserscan nodelet into sensor's nodelet manager-->
@@ -21,7 +22,7 @@
     angle_increment: 0.0087
     scan_time: 0.3333
     range_min: 0.5
-    range_max: 7
+    range_max: 3
     use_inf: true
     inf_epsilon: 1.0
 
